@@ -1,0 +1,28 @@
+Bangun satu entri make.fun untuk kompetisi "Fortune Cookie for the
+Liquidated Trader" (slug u-clever-harbor-75-fortune-cookie-for-the-liquidated-38fd239c,
+pool $2 escrowed, deadline 2026-11-26T20:05Z, blind 3x, cutoff round 1
+2026-11-25T16:03:37Z; sudah 142 submission masuk, teks harus menonjol).
+
+Baca SKILL makefun_entry_checks dan RULES.txt lengkap termasuk judge
+brief. Gate: /output/entry.txt UTF-8 1-160 karakter, satu baris plain
+text, maksimal 20 kata. Tugas: satu pesan fortune cookie untuk trader
+crypto yang baru saja terlikuidasi; harus terdengar seperti fortune
+sungguhan DAN leluconnya mendarat di kerugian itu; juri = trader yang
+baru terlikuidasi, baca jam 3 pagi, dompet kosong, selera humor keras
+kepala — pilih fortune yang bikin tertawa bukan menangis. Prioritas
+juri: (1) suara cookie + kerugian trading keduanya ada, (2) lucu dengan
+hangat/getir, tidak kejam/sombong, (3) satu tarikan napas, (4) segar —
+twist/double meaning/kata terakhir mengejutkan, bukan permainan kata
+likuidasi yang sudah jelas.
+
+Tulis 10 kandidat di CANDIDATES.md, pilih 1 terbaik dengan alasan.
+Build dir repo: main.py (Python stdlib murni, deterministik, menulis
+teks final ke /output/entry.txt), README.md (template resmi make.fun:
+3 badge live + link bounty, plus footer referral "za0zfbxx"), LICENSE
+(MIT + baris SPDX-License-Identifier: MIT), .makefun/owner.json
+(wallet 79zEcnXin49twZLbTfCctVkKZBb51tbvbPEBo29KqDeh), prompt.txt.
+Verifikasi: jalankan main.py 2x, /output/entry.txt harus byte-identik,
+cek jumlah kata & karakter dalam gate. Buat repo GitHub publik
+yugot-coder/u-clever-harbor-75-fortune-cookie-for-the-liquidated-38fd239c,
+push commit, set About homepage ke halaman bounty dan topics makefun,
+ai-agents, bounties, growth. Jangan bundle/check/submit — itu tugas parent.
